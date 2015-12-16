@@ -13,6 +13,7 @@
 		B848FC4C1C1B2AC60041E479 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B848FC4B1C1B2AC60041E479 /* Images.xcassets */; };
 		B848FC4F1C1B2AC60041E479 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B848FC4D1C1B2AC60041E479 /* LaunchScreen.xib */; };
 		B848FC5B1C1B2AC60041E479 /* stupidIOSProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B848FC5A1C1B2AC60041E479 /* stupidIOSProjectTests.swift */; };
+		B89AB8401C207C26007B2B75 /* woodb2.png in Resources */ = {isa = PBXBuildFile; fileRef = B89AB83F1C207C26007B2B75 /* woodb2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		B848FC541C1B2AC60041E479 /* stupidIOSProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stupidIOSProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B848FC591C1B2AC60041E479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B848FC5A1C1B2AC60041E479 /* stupidIOSProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stupidIOSProjectTests.swift; sourceTree = "<group>"; };
+		B89AB83F1C207C26007B2B75 /* woodb2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = woodb2.png; path = ../../../woodb2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				B848FC461C1B2AC60041E479 /* ViewController.swift */,
 				B848FC481C1B2AC60041E479 /* Main.storyboard */,
 				B848FC4B1C1B2AC60041E479 /* Images.xcassets */,
+				B89AB83F1C207C26007B2B75 /* woodb2.png */,
 				B848FC4D1C1B2AC60041E479 /* LaunchScreen.xib */,
 				B848FC421C1B2AC60041E479 /* Supporting Files */,
 			);
@@ -156,6 +159,7 @@
 		B848FC371C1B2AC60041E479 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = CTEC;
 				TargetAttributes = {
@@ -194,6 +198,7 @@
 			files = (
 				B848FC4A1C1B2AC60041E479 /* Main.storyboard in Resources */,
 				B848FC4F1C1B2AC60041E479 /* LaunchScreen.xib in Resources */,
+				B89AB8401C207C26007B2B75 /* woodb2.png in Resources */,
 				B848FC4C1C1B2AC60041E479 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +416,7 @@
 				B848FC601C1B2AC60041E479 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B848FC611C1B2AC60041E479 /* Build configuration list for PBXNativeTarget "stupidIOSProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +425,7 @@
 				B848FC631C1B2AC60041E479 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
